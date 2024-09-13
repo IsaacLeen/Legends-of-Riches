@@ -1,3 +1,8 @@
+"""
+Represents a room in the game world. A room has a description, connections to other rooms, characters, and items.
+
+The `Room` class provides methods to connect rooms, add characters and items, describe the room, and list the available actions the player can take in the room.
+"""
 # room.py
 
 class Room:

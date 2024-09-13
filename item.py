@@ -1,3 +1,8 @@
+"""
+Represents an item in the game.
+
+The `Item` class encapsulates the basic properties of an item, such as its name, description, and value. It also provides a `use` method that can be overridden by subclasses to implement the specific behavior of using the item.
+"""
 # item.py
 
 class Item:

@@ -1,3 +1,8 @@
+"""
+Runs the main game loop for the game engine.
+
+This script is the entry point for the game application. It creates a new instance of the `GameEngine` class and calls its `play()` method to start the game loop.
+"""
 # main.py
 from game_engine import GameEngine
 

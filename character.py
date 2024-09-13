@@ -1,3 +1,6 @@
+"""
+The `blackjack` method of the `Character` class implements a simple blackjack game. It prompts the player to place a bet, deals the initial hands, and then allows the player to hit or stand. The dealer's hand is then played out, and the winner is determined based on the final hand values. The player's money is updated accordingly.
+"""
 # character.py
 
 import random

@@ -1,3 +1,10 @@
+"""
+The `GameEngine` class is the main entry point for the game. It is responsible for setting up the game world, including creating rooms, characters, and items, as well as managing the game loop and player interactions.
+
+The `setup_game()` method is called during initialization to create the game world. It sets up the rooms, connects them, creates characters and items, and assigns the player's starting room.
+
+The `play()` method runs the main game loop, allowing the player to move between rooms, interact with characters, and pick up items. It handles user input and updates the game state accordingly.
+"""
 # game_engine.py
 
 from player import Player
