@@ -6,6 +6,7 @@ This script is the entry point for the game application. It creates a new instan
 # main.py
 from game_engine import GameEngine
 
+
 if __name__ == "__main__":
     game = GameEngine()
     game.play()
